@@ -1,5 +1,3 @@
-## Исходный код для [видео урока по Laravel Mix](https://youtu.be/zfn2p8yinc0).
-
 1. Создаем новый проект laravel
 
 ```
@@ -32,3 +30,9 @@ npm i svg4everybody
 ```
 
 5. Настраиваем laravel-mix через webpack.mix.js
+
+6.  При возникновении ошибок 
+   npm cache clean --force
+   удалить node_modules папку
+   удалить package-lock.json файл
+   npm install
