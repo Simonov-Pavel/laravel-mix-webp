@@ -9,6 +9,10 @@
         "prod": "npm run production",
         "production": "mix --production"
     },
+    "browserslist": [
+        "defaults",
+        "ie 11"
+     ],
     "devDependencies": {
         "copy-webpack-plugin": "^10.2.0",
         "imagemin-mozjpeg": "^10.0.0",
